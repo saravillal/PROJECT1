@@ -1,6 +1,6 @@
 * {
  
-    margin: 20px;
+    margin: 40px;
     margin-right: 100px;
 margin-left: 60px;
     margin-right: 50px;
@@ -149,7 +149,7 @@ margin-top: 500px;
 
 .container>div {
 
-   
+   margin-top: 50px;
     display: inline-block;
     
 
@@ -233,6 +233,7 @@ h2 {
     text-align: left;
     font-weight: 400;
     font-size: 50px;
+    margin-left: 120px;
 }
 
 .learn {
@@ -308,12 +309,9 @@ h2 {
     height: 60%;
 }
 
-h2 {
-    margin-top: 60px;
-    text-align: left;
-    font-weight: 400;
-    font-size: 50px;
-}
+h1 {margin-left: 120px;}
+
+
 
 .learn {
     text-align: left;
@@ -323,12 +321,14 @@ h2 {
 }
 
 .container3 {
-text-align: center;
+text-align: left;
     position: relative;
     width: 80%;
     height: 900px;
     background-color: #292E47;
 }
+
+
 
 .foto1 {
     position: relative;
@@ -471,3 +471,19 @@ margin-top: -25px;}
 }
     .titfecha { display: inline-block:}
    
+
+    .projectsection {
+        font-size: 22px;
+        width: 1440px;
+        height: 1181px;
+        left: 0px;
+        top: 262px;
+        line-height : 30px;
+    }
+
+
+ .fotopage {
+    object-fit: cover;
+  width: 1440px;
+  height: 600px;
+ }
