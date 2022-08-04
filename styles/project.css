@@ -166,6 +166,7 @@ margin-top: 500px;
 
 .mini2 {
     text-align: left;
+    font-size: 14px;
 }
 
 .box1 {
@@ -487,3 +488,34 @@ margin-top: -25px;}
   width: 1440px;
   height: 600px;
  }
+
+ footer {
+    background-color: ;
+    width: 1440px;
+    height: 242px;
+   bottom: 0px;
+   
+}
+
+    .cajaHor{
+        float: right;
+width: 1440px;
+        height:10px;
+        font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    margin-top: -10px;
+      
+        
+        
+        }
+        .cajaHor div{
+            float: right;
+            clear: left;
+        margin-left: 150px;
+        margin-top: -50px;
+        
+        }
+
+       .cajaHor2 { margin-right: 25px;}
+
+       
