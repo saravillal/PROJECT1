@@ -1,20 +1,20 @@
 * {
- 
+
     margin: 40px;
     margin-right: 100px;
-margin-left: 60px;
+    margin-left: 60px;
     margin-right: 50px;
-       padding: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    
+
 }
 
 
 
 .logoCircle {
     margin-left: 50px;
-    margin-top: 0px;
+    margin-top: -100px;
     shadow: 0.2em 0.2em 0.2em grey;
     position: absolute;
 }
@@ -68,12 +68,12 @@ div a {
 }
 
 .wrapper {
-position: relative;
+    position: relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 6px;
     grid-auto-rows: 400px;
-    
+
 
 
 }
@@ -92,7 +92,7 @@ position: relative;
 }
 
 .three img {
-    float:left;
+    float: left;
     width: 500px;
     height: auto;
 }
@@ -104,8 +104,8 @@ position: relative;
 }
 
 .two img {
-    
-margin-left: 300px;
+
+    margin-left: 300px;
     width: 700px;
     height: auto;
 }
@@ -116,9 +116,9 @@ margin-left: 300px;
 }
 
 .four img {
-    clear:left;
-    float:right;
-margin-top: 500px;
+    clear: left;
+    float: right;
+    margin-top: 500px;
     width: 400px;
     height: auto;
 }
@@ -149,9 +149,9 @@ margin-top: 500px;
 
 .container>div {
 
-   margin-top: 50px;
+    margin-top: 50px;
     display: inline-block;
-    
+
 
 }
 
@@ -170,7 +170,7 @@ margin-top: 500px;
 }
 
 .box1 {
-    
+
     width: 400px;
     height: 550px;
     box-shadow: 0.2em 0.2em 0.2em grey;
@@ -180,15 +180,15 @@ margin-top: 500px;
 
 
 
- .box1 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+.box1 img {
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 
 .box2 {
@@ -201,12 +201,12 @@ margin-top: 500px;
 }
 
 .box2 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -221,12 +221,12 @@ margin-top: 500px;
 }
 
 .box3 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -310,7 +310,9 @@ h2 {
     height: 60%;
 }
 
-h1 {margin-left: 120px;}
+h1 {
+    margin-left: 120px;
+}
 
 
 
@@ -322,7 +324,7 @@ h1 {margin-left: 120px;}
 }
 
 .container3 {
-text-align: left;
+    text-align: left;
     position: relative;
     width: 80%;
     height: 900px;
@@ -333,28 +335,28 @@ text-align: left;
 
 .foto1 {
     position: relative;
-    float:left;
-    
+    float: left;
+
 }
 
 .foto2 {
-    position:relative;
+    position: relative;
     float: right;
 }
 
 .foto3 {
-position: relative;
-clear:right;
-    float:left;
+    position: relative;
+    clear: right;
+    float: left;
     margin-top: 250px;
-    }
+}
 
-.foto4 { 
-    clear:right;
+.foto4 {
+    clear: right;
     position: relative;
     margin-top: 250px;
     float: right;
-    
+
 }
 
 .texto {
@@ -364,7 +366,7 @@ clear:right;
     left: 28%;
     color: white;
     position: absolute;
-    display:grid;
+    display: grid;
 }
 
 .centrado {
@@ -384,138 +386,170 @@ clear:right;
 
 
 .fotoPerfil {
-    clear:both
-    float:
-    margin-bottom: 200px;
+    clear: both float: margin-bottom: 200px;
     width: 200px;
     height: auto;
     border-radius: 90px;
     posit
-    
 }
 
 .container4 {
-    
+
     position: relative;
     width: 80%;
     height: 500px;
-    background-color: #FFC600;}
+    background-color: #FFC600;
+}
 
-    .texto4 {
-        font-size: 50px;
-        font-weight: 400;
-        top: 20%;
-        left: 28%;
-        color:#292E47;
-        position: absolute;
-    }
+.texto4 {
+    font-size: 50px;
+    font-weight: 400;
+    top: 20%;
+    left: 28%;
+    color: #292E47;
+    position: absolute;
+}
 
-    .texto5 {font-size: 24px;
-    font-weight: 300;}
+.texto5 {
+    font-size: 24px;
+    font-weight: 300;
+}
 
-    .input-wrapper {
+.input-wrapper {
 
-        position: relative;
-        width: 271px;
-        
-      }
-      
-      .input {
-        
-        box-sizing: border-box;
-        padding: 15px 15px 15px 35px;
-        width: 100%;
-        
-        
-      }
-      
-      .input-icon {
-        color: #191919;
-        position: relative;
-        width: 20px;
-        height: 20px;
-        left: 12px;
-        top: 30%;
-        transform: translateY(-50%);
-      }
+    position: relative;
+    width: 271px;
 
-   .boton2 { 
+}
+
+.input {
+
+    box-sizing: border-box;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
 
 
-font-size: 20px;;
+}
+
+.input-icon {
+    color: #191919;
+    position: relative;
     width: 20px;
-        height: 20px;
+    height: 20px;
+    left: 12px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.boton2 {
+
+
+    font-size: 20px;
+    ;
+    width: 20px;
+    height: 20px;
     text-align: center;
-    
-        padding: 15px 15px 15px 15px;
-        width: 100%;
-   }
 
-   .input-wrapper .boton2 { display:inline-block;}
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
 
-   h1 { 
+.input-wrapper .boton2 {
+    display: inline-block;
+}
+
+h1 {
     margin-top: 200px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 60px;
     text-align: left;
-    }
+}
 
-    .fecha {text-align: right;
+.fecha {
+    text-align: right;
     font-size: 20px;
-margin-top: -25px;}
+    margin-top: -25px;
+}
 
-.enun { 
+.enun {
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
-    .titfecha { display: inline-block:}
-   
 
-    .projectsection {
-        font-size: 22px;
-        width: 1440px;
-        height: 1181px;
-        left: 0px;
-        top: 262px;
-        line-height : 30px;
-    }
+.titfecha {
+    display: inline-block:
+}
 
 
- .fotopage {
+.projectsection {
+    font-size: 22px;
+    width: 1440px;
+    height: 1181px;
+    left: 0px;
+    top: 262px;
+    line-height: 30px;
+}
+
+
+.fotopage {
     object-fit: cover;
-  width: 1440px;
-  height: 600px;
- }
+    width: 1440px;
+    height: 600px;
+}
 
- footer {
+footer {
     background-color: ;
     width: 1440px;
     height: 242px;
-   bottom: 0px;
-   
+    bottom: 0px;
+
 }
 
-    .cajaHor{
-        float: right;
-width: 1440px;
-        height:10px;
-        font-family: 'Roboto', sans-serif;
-    font-size: 18px; 
+.cajaHor {
+    float: right;
+    width: 1440px;
+    height: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin-top: -10px;
-      
-        
-        
-        }
-        .cajaHor div{
-            float: right;
-            clear: left;
-        margin-left: 150px;
-        margin-top: -50px;
-        
-        }
 
-       .cajaHor2 { margin-right: 25px;}
 
-       
+
+}
+
+.cajaHor div {
+    float: right;
+    clear: left;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+
+.cajaHor2 {
+    margin-right: 25px;
+}
+
+.form {
+    text-align: center;
+    padding: 0;
+    
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    }
+
+input,
+textarea {
+    background-color: #ccc;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    
+}
+
+.center-content{ width: 1440px;}
+
+.field{border: solid 1px #ccc;
+padding: 10px;}
