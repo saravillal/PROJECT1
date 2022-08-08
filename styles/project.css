@@ -13,14 +13,14 @@
 
 
 .logoCircle {
-    margin-left: 50px;
-    margin-top: -100px;
+
+    margin-top: 0px;
     shadow: 0.2em 0.2em 0.2em grey;
-    position: absolute;
+
 }
 
 .navbar {
-    display: inline-block;
+
     position: absolute;
     width: 1440px;
     height: 122px;
@@ -31,7 +31,6 @@
 .navbar li {
 
     display: inline-block;
-
     text-align: center;
 
 }
@@ -56,15 +55,11 @@ div a {
 
 .boton {
 
-    display: inline-block;
-    position: absolute;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
     border: 10px solid #072AC8;
-    margin-left: 75%;
-    margin-top: 30px;
-
+    float: right;
 }
 
 .wrapper {
@@ -530,26 +525,3 @@ footer {
 .cajaHor2 {
     margin-right: 25px;
 }
-
-.form {
-    text-align: center;
-    padding: 0;
-    
-    color: #999;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    }
-
-input,
-textarea {
-    background-color: #ccc;
-    border: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size:40px;
-    
-}
-
-.center-content{ width: 1440px;}
-
-.field{border: solid 1px #ccc;
-padding: 10px;}
