@@ -338,9 +338,10 @@ h2 {
 .container3 {
     text-align: left;
     position: relative;
-    width: 80%;
+    width: 1440px;
     height: 900px;
     background-color: #292E47;
+    margin-top: -150px;
 }
 
 
@@ -395,15 +396,29 @@ h2 {
 
 }
 
-
+.cuadro {text-align: center;
+line-height: 2px;}
 
 .fotoPerfil {
-    clear: both float: margin-bottom: 200px;
-    width: 200px;
+    display: grid;
+    margin-left: 200px;
+    width: 100px;
     height: auto;
     border-radius: 90px;
-    posit
+margin-top: -70px;
+float: left;
 }
+
+.kristin { color: #43D2FF;
+    margin-left: 500px;
+    margin-top:650px;
+    
+    }
+
+    .booking { 
+        margin-left: 485px;
+        margin-top: 0px;
+        color: white;}
 
 .container4 {
 
