@@ -1,6 +1,6 @@
 * {
-
-    margin: 20px;
+max-width: 1040px;
+    margin: 2%;
     margin-left: 60px;
     margin-right: 50px;
     padding: 0px;
@@ -9,11 +9,14 @@
 
 }
 
-
+.containerNav {
+    width: 100%;
+    height: 5%;
+}
 
 .logoCircle {
 
-    
+
     shadow: 0.2em 0.2em 0.2em grey;
 
 }
@@ -59,7 +62,7 @@ div a {
     color: white;
     border: 10px solid #072AC8;
     float: right;
-   
+
 }
 
 .wrapper {
@@ -83,7 +86,9 @@ div a {
     margin-top: px;
 }
 
-.one p { font-size: 24px;}
+.one p {
+    font-size: 24px;
+}
 
 .two {
 
@@ -113,28 +118,29 @@ div a {
 .four {
     grid-column: 11;
     grid-row: 2;
-    
+
 }
 
 .four img {
-    
+
     clear: left;
-    
+
     width: 400px;
-    
-height: auto;
+
+    height: auto;
 }
 
 .imgs {
-    
+
     margin-top: 200px;
-    margin-bottom: 150px;;
+    margin-bottom: 150px;
+    ;
     width: 1440px;
     height: 96px;
     filter: grayscale(100%);
-display: flex;
-justify-content: space-between;
-    
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .wrapper h1 {
@@ -143,7 +149,7 @@ justify-content: space-between;
 
 .boton2 {
 
-margin-left: 60px;
+    margin-left: 60px;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
@@ -152,7 +158,7 @@ margin-left: 60px;
 
 
 .parent {
-    
+
     margin-right: 20px;
     text-align: center;
     display: grid;
@@ -336,7 +342,7 @@ h2 {
 }
 
 .container3 {
-    
+
     position: relative;
     width: 1440px;
     height: 900px;
@@ -379,8 +385,8 @@ h2 {
     left: 28%;
     color: white;
     position: absolute;
-text-align: center;
-margin-left: -40px;
+    text-align: center;
+    margin-left: -40px;
 }
 
 .centrado {
@@ -397,8 +403,10 @@ margin-left: -40px;
 
 }
 
-.cuadro {text-align: center;
-line-height: 2px;}
+.cuadro {
+    text-align: center;
+    line-height: 2px;
+}
 
 .fotoPerfil {
     display: grid;
@@ -406,20 +414,22 @@ line-height: 2px;}
     width: 100px;
     height: auto;
     border-radius: 90px;
-margin-top: -70px;
-float: left;
+    margin-top: -70px;
+    float: left;
 }
 
-.kristin { color: #43D2FF;
+.kristin {
+    color: #43D2FF;
     margin-left: 500px;
-    margin-top:650px;
-    
-    }
+    margin-top: 650px;
 
-    .booking { 
-        margin-left: 485px;
-        margin-top: 0px;
-        color: white;}
+}
+
+.booking {
+    margin-left: 485px;
+    margin-top: 0px;
+    color: white;
+}
 
 .container4 {
 
@@ -538,39 +548,67 @@ footer {
     width: 70px;
 }
 
-.form { 
-    margin-top: 100px;;
-    color:#072AC8}
+.form {
+    margin-top: 100px;
+    ;
+    color: #072AC8
+}
 
-button { font-weight: 400;
+button {
+    font-weight: 400;
     background-color: #072AC8;
     color: white;
     border: 10px solid #072AC8;
     float: left;
-width: 1000px;
-height: 80px;
-text-align: center;}
+    width: 1000px;
+    height: 80px;
+    text-align: center;
+}
 
 
 
-input { 
-    
-    
-background-color: #e0e0e0;
-width: 1000px;
-height: 70px;
-border:#ccc;
-margin-top: 20px;}
+input {
 
-.contacttitle { 
+
+    background-color: #e0e0e0;
+    width: 1000px;
+    height: 70px;
+    border: #ccc;
     margin-top: 20px;
+}
+
+.contacttitle {
+    margin-left: 180px;
+    margin-top: 100px;
     font-size: 50px;
-font-weight: 500;}
+    font-weight: 500;
+}
 
-#ultimo { width: 1000px;
-height: 200px;}
+#ultimo {
+    width: 1000px;
+    height: 200px;
+}
 
+.form-control.falla input { 
+    border: 0.1px solid;
+    border-color: #fe5f55;
+}
 
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: #08ffc8
+}
 
+.form-control p { 
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    
+}
 
+.form-control.falla p {
+    visibility: visible;
+    color: #e74c3c;
+}
 
