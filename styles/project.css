@@ -1,5 +1,5 @@
 * {
-max-width: 1040px;
+
     margin: 2%;
     margin-left: 60px;
     margin-right: 50px;
@@ -455,16 +455,22 @@ h2 {
     margin-left: 200px;
 }
 
-
+.input1 {
+    width: 30%;
+    height: auto;
+    flex:left;
+}
 
 
 .boton10 {
-
+width: 10%;
     float: right;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
     border: 10px solid #072AC8;
+    text-align: center;
+    float: right;
 }
 
 
@@ -511,17 +517,16 @@ h1 {
 }
 
 footer {
-    background-color: ;
-    width: 1440px;
-    height: 242px;
+    
+    width: 80%;
+    height: 40%px;
     bottom: 0px;
 
 }
 
 .cajaHor {
     float: right;
-    width: 1440px;
-    height: 10px;
+  
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin-top: -10px;
@@ -538,8 +543,19 @@ footer {
 
 }
 
+.cajaHor2 div {
+    float: right;
+    clear: left;
+    margin-left: 150px;
+    margin-top: -50px;
+    inline-size: 50px;
+
+}
+
 .cajaHor2 {
-    margin-right: 25px;
+    margin: 0;
+    
+    
 }
 
 .label {
