@@ -1,29 +1,32 @@
 * {
- 
-    margin: 20px;
-    margin-right: 100px;
-margin-left: 60px;
-    margin-right: 50px;
-       padding: 0px;
+    max-width: 1440px;
+    margin: 2%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     
+
 }
 
-
+.containerNav {
+    width: 60%;
+    height: 5%;
+}
 
 .logoCircle {
-    margin-left: 50px;
-    margin-top: 0px;
+
+
     shadow: 0.2em 0.2em 0.2em grey;
-    position: absolute;
+
 }
 
 .navbar {
-    display: inline-block;
+
     position: absolute;
-    width: 1440px;
-    height: 122px;
+    width: 80%;
+    height: 20%;
     left: calc(50% - 1440px/2);
     top: 0px;
 }
@@ -31,7 +34,6 @@ margin-left: 60px;
 .navbar li {
 
     display: inline-block;
-
     text-align: center;
 
 }
@@ -56,71 +58,92 @@ div a {
 
 .boton {
 
-    display: inline-block;
-    position: absolute;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
     border: 10px solid #072AC8;
-    margin-left: 75%;
-    margin-top: 30px;
+    float: right;
 
 }
 
 .wrapper {
-position: relative;
+    width: 80%;
+    height: auto;
+    margin-top: -100px;
+    position: relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 6px;
+    grid-gap: 30px;
     grid-auto-rows: 400px;
-    
-
-
+    height: 40em;
+    width: 1440em;
+    margin-left: 50px;
 }
 
 .one {
+    margin: -0px;
     text-align: left;
     font-size: 60px;
-    grid-column: 1/4;
+    grid-column: 2/8;
     grid-row: 1/2;
+    margin-top: px;
 }
 
-.three {
-
-    grid-column: 3 / 7;
-    grid-row: 1;
-}
-
-.three img {
-    float:left;
-    width: 500px;
-    height: auto;
+.one p {
+    font-size: 24px;
 }
 
 .two {
 
-    grid-column: 3/5;
-    grid-row: 1;
+    grid-column: 4/8;
+    grid-row: 1/2;
 }
 
 .two img {
-    
-margin-left: 300px;
-    width: 700px;
+
+    margin-left: 400px;
+    width: 30em;
+    height: auto;
+}
+
+.three {
+
+    grid-column: 5 / 7;
+    grid-row: 1;
+}
+
+.three img {
+
+    width: 450px;
     height: auto;
 }
 
 .four {
-    grid-column: 5;
-    grid-row: 1;
+    grid-column: 11;
+    grid-row: 2;
+
 }
 
 .four img {
-    clear:left;
-    float:right;
-margin-top: 500px;
+
+    clear: left;
+
     width: 400px;
+
     height: auto;
+}
+
+.imgs {
+
+    margin-top: 200px;
+    margin-bottom: 150px;
+    text-align: center;
+    width: 70%;
+    height: 10%;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .wrapper h1 {
@@ -129,7 +152,7 @@ margin-top: 500px;
 
 .boton2 {
 
-
+    margin-left: 60px;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
@@ -138,7 +161,7 @@ margin-top: 500px;
 
 
 .parent {
-    margin-left: 20px;
+
     margin-right: 20px;
     text-align: center;
     display: grid;
@@ -147,11 +170,23 @@ margin-top: 500px;
     grid-gap: 20px;
 }
 
+.container {
+    width: 1440em;
+    height: 50em;
+}
+
+.container2 {
+    margin-top: 80px;
+    width: 1440em;
+    text-align: center;
+}
+
 .container>div {
 
-   
+    margin-top: 70px;
     display: inline-block;
-    
+
+
 
 }
 
@@ -166,10 +201,11 @@ margin-top: 500px;
 
 .mini2 {
     text-align: left;
+    font-size: 14px;
 }
 
 .box1 {
-    
+
     width: 400px;
     height: 550px;
     box-shadow: 0.2em 0.2em 0.2em grey;
@@ -179,15 +215,15 @@ margin-top: 500px;
 
 
 
- .box1 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+.box1 img {
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 
 .box2 {
@@ -200,12 +236,12 @@ margin-top: 500px;
 }
 
 .box2 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -220,12 +256,12 @@ margin-top: 500px;
 }
 
 .box3 img {
-    margin:-10px auto;
-    padding:0px;
-    width:400px;
-    height:auto;
+    margin: -10px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -233,6 +269,7 @@ h2 {
     text-align: left;
     font-weight: 400;
     font-size: 50px;
+    margin-left: 120px;
 }
 
 .learn {
@@ -259,6 +296,8 @@ h2 {
     margin-bottom: 10px;
     text-align: left;
 }
+
+
 
 .box4 {
     text-align: left;
@@ -308,12 +347,9 @@ h2 {
     height: 60%;
 }
 
-h2 {
-    margin-top: 60px;
-    text-align: left;
-    font-weight: 400;
-    font-size: 50px;
-}
+
+
+
 
 .learn {
     text-align: left;
@@ -323,37 +359,40 @@ h2 {
 }
 
 .container3 {
-text-align: center;
+
     position: relative;
-    width: 80%;
-    height: 900px;
+    width: 100em;
+    height: 60em;
     background-color: #292E47;
+    margin-top: 0px;
 }
+
+
 
 .foto1 {
     position: relative;
-    float:left;
-    
+    float: left;
+
 }
 
 .foto2 {
-    position:relative;
+    position: relative;
     float: right;
 }
 
 .foto3 {
-position: relative;
-clear:right;
-    float:left;
+    position: relative;
+    clear: right;
+    float: left;
     margin-top: 250px;
-    }
+}
 
-.foto4 { 
-    clear:right;
+.foto4 {
+    clear: right;
     position: relative;
     margin-top: 250px;
     float: right;
-    
+
 }
 
 .texto {
@@ -363,7 +402,8 @@ clear:right;
     left: 28%;
     color: white;
     position: absolute;
-    display:grid;
+    text-align: center;
+    margin-left: -40px;
 }
 
 .centrado {
@@ -380,94 +420,331 @@ clear:right;
 
 }
 
-
+.cuadro {
+    text-align: center;
+    line-height: 2px;
+}
 
 .fotoPerfil {
-    clear:both
-    float:
-    margin-bottom: 200px;
-    width: 200px;
+    display: grid;
+    margin-left: 200px;
+    width: 100px;
     height: auto;
     border-radius: 90px;
-    posit
-    
+    margin-top: -80px;
+    float: left;
+}
+
+.kristin {
+    color: #43D2FF;
+    margin-left: 21em;
+    margin-top: 45em;
+
+}
+
+.booking {
+    margin-left: 20em;
+    margin-top: 0px;
+    color: white;
 }
 
 .container4 {
-    
+
     position: relative;
-    width: 80%;
-    height: 500px;
-    background-color: #FFC600;}
+    width: 100em;
+    height: 30em;
+    background-color: #FFC600;
+}
 
-    .texto4 {
-        font-size: 50px;
-        font-weight: 400;
-        top: 20%;
-        left: 28%;
-        color:#292E47;
-        position: absolute;
-    }
+.texto4 {
+    font-size: 50px;
+    font-weight: 400;
+    top: 20%;
+    left: 28%;
+    color: #292E47;
+    position: absolute;
+}
 
-    .texto5 {font-size: 24px;
-    font-weight: 300;}
+.texto5 {
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: center;
+    margin-left: 200px;
+}
 
-    .input-wrapper {
-
-        position: relative;
-        width: 271px;
-        
-      }
-      
-      .input {
-        
-        box-sizing: border-box;
-        padding: 15px 15px 15px 35px;
-        width: 100%;
-        
-        
-      }
-      
-      .input-icon {
-        color: #191919;
-        position: relative;
-        width: 20px;
-        height: 20px;
-        left: 12px;
-        top: 30%;
-        transform: translateY(-50%);
-      }
-
-   .boton2 { 
+.input-wrapper input {
+    background-color: white;
+    ;
+    width: 50%;
+    border: 30px solid white;
+    height: 30%;
+    flex: left;
+}
 
 
-font-size: 20px;;
-    width: 20px;
-        height: 20px;
+.boton10 {
+    margin-top: -89px;
+    width: 20%;
+    height: 35%;
+    font-weight: 400;
+    background-color: #072AC8;
+    color: white;
+    border: 30px solid #072AC8;
     text-align: center;
-    
-        padding: 15px 15px 15px 15px;
-        width: 100%;
-   }
+    float: right;
 
-   .input-wrapper .boton2 { display:inline-block;}
+}
 
-   h1 { 
+
+
+h1 {
     margin-top: 200px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 60px;
     text-align: left;
-    }
+}
 
-    .fecha {text-align: right;
+.fecha {
+    text-align: right;
     font-size: 20px;
-margin-top: -25px;}
+    margin-top: -25px;
+}
 
-.enun { 
+.enun {
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
-    .titfecha { display: inline-block:}
-   
+
+.titfecha {
+    margin-top: -100px;
+
+}
+
+
+.projectsection {
+    margin-bottom: 5em;
+    margin-top: 50px;
+    font-size: 22px;
+    width: 1440px;
+    height: 1181px;
+    left: 0px;
+    top: 262px;
+    line-height: 30px;
+}
+
+
+.fotopage {
+    object-fit: cover;
+    width: 1440px;
+    height: 600px;
+}
+
+footer {
+
+    width: 1000px;
+    height: 60px;
+
+
+}
+
+.cajas {
+    margin-top: 70px;
+    height: 100%;
+}
+
+.cajaHor {
+    margin-top: -150px;
+    ;
+    float: right;
+    text-align: center;
+}
+
+.cajaHor2 {
+    margin-top: -150px;
+    margin-right: 60px;
+    float: right;
+    text-align: center;
+}
+
+.cajaHor2 div {
+    padding: 1em;
+}
+
+.cajaHor div {
+    padding: 1em;
+}
+
+.label {
+    display: block;
+    float: left;
+    width: 70px;
+}
+
+.form {
+    margin-top: 100px;
+    ;
+    color: #072AC8
+}
+
+button {
+    font-weight: 400;
+    background-color: #072AC8;
+    color: white;
+    border: 10px solid #072AC8;
+    float: left;
+    width: 1000em;
+    height: 80px;
+    text-align: center;
+}
+
+#fomulario {
+    text-align: center;
+    width: 1000em;
+}
+
+input {
+    background-color: #e0e0e0;
+    width: 9000em;
+    height: 70px;
+    border: #ccc;
+    margin-top: 20px;
+}
+
+.contacttitle {
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#ultimo {
+    width: 1000px;
+    height: 200px;
+}
+
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: #fe5f55;
+    margin-top: 10px;
+}
+
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: #08ffc8
+}
+
+.form-control p {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color: #e74c3c;
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+
+    .containerNav {
+        width: 80%;
+    }
+
+    .navbar {
+        width: 90%;
+        margin-left: 20em;
+    }
+
+    .one {
+        width: 8em;
+    }
+
+
+
+    .three img {
+        width: 25em;
+    }
+
+    .two img {
+        width: 30em;
+    }
+
+    .four img {
+        width: 20em;
+    }
+
+    .wrapper {
+
+        width: 80%;
+    }
+
+    .imgs {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .cuadro {
+        weight: 100%;
+        font-size: small;
+    }
+
+    .fotoPerfil {
+        width: 20%;
+        text-align: center;
+    }
+
+    .container3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4 {
+        width: 100%;
+    }
+
+    div {
+        width: auto;
+    }
+}
+
+.fotopage {
+    width: 100%;
+}
+
+.projectsection {
+    width: 100%;
+    height: 100%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+.contacttitle {
+    width: 100%;
+}
