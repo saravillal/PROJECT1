@@ -1,16 +1,17 @@
 * {
-
+    max-width: 1440px;
     margin: 2%;
-    margin-left: 60px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    
 
 }
 
 .containerNav {
-    width: 100%;
+    width: 60%;
     height: 5%;
 }
 
@@ -24,8 +25,8 @@
 .navbar {
 
     position: absolute;
-    width: 1440px;
-    height: 122px;
+    width: 80%;
+    height: 20%;
     left: calc(50% - 1440px/2);
     top: 0px;
 }
@@ -66,14 +67,16 @@ div a {
 }
 
 .wrapper {
-    margin-top: -80px;
+    width: 80%;
+    height: auto;
+    margin-top: -100px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 30px;
     grid-auto-rows: 400px;
-    height: 697px;
-    width: 1440px;
+    height: 40em;
+    width: 1440em;
     margin-left: 50px;
 }
 
@@ -93,13 +96,13 @@ div a {
 .two {
 
     grid-column: 4/8;
-    grid-row: 1;
+    grid-row: 1/2;
 }
 
 .two img {
 
     margin-left: 400px;
-    width: 700px;
+    width: 30em;
     height: auto;
 }
 
@@ -134,9 +137,9 @@ div a {
 
     margin-top: 200px;
     margin-bottom: 150px;
-    ;
-    width: 1440px;
-    height: 96px;
+    text-align: center;
+    width: 70%;
+    height: 10%;
     filter: grayscale(100%);
     display: flex;
     justify-content: space-between;
@@ -167,10 +170,22 @@ div a {
     grid-gap: 20px;
 }
 
+.container {
+    width: 1440em;
+    height: 50em;
+}
+
+.container2 {
+    margin-top: 80px;
+    width: 1440em;
+    text-align: center;
+}
+
 .container>div {
 
     margin-top: 70px;
     display: inline-block;
+
 
 
 }
@@ -282,6 +297,8 @@ h2 {
     text-align: left;
 }
 
+
+
 .box4 {
     text-align: left;
     width: 400px;
@@ -344,8 +361,8 @@ h2 {
 .container3 {
 
     position: relative;
-    width: 1440px;
-    height: 900px;
+    width: 100em;
+    height: 60em;
     background-color: #292E47;
     margin-top: 0px;
 }
@@ -414,19 +431,19 @@ h2 {
     width: 100px;
     height: auto;
     border-radius: 90px;
-    margin-top: -70px;
+    margin-top: -80px;
     float: left;
 }
 
 .kristin {
     color: #43D2FF;
-    margin-left: 500px;
-    margin-top: 650px;
+    margin-left: 21em;
+    margin-top: 45em;
 
 }
 
 .booking {
-    margin-left: 485px;
+    margin-left: 20em;
     margin-top: 0px;
     color: white;
 }
@@ -434,8 +451,8 @@ h2 {
 .container4 {
 
     position: relative;
-    width: 80%;
-    height: 500px;
+    width: 100em;
+    height: 30em;
     background-color: #FFC600;
 }
 
@@ -455,22 +472,27 @@ h2 {
     margin-left: 200px;
 }
 
-.input1 {
-    width: 30%;
-    height: auto;
-    flex:left;
+.input-wrapper input {
+    background-color: white;
+    ;
+    width: 50%;
+    border: 30px solid white;
+    height: 30%;
+    flex: left;
 }
 
 
 .boton10 {
-width: 10%;
-    float: right;
+    margin-top: -89px;
+    width: 20%;
+    height: 35%;
     font-weight: 400;
     background-color: #072AC8;
     color: white;
-    border: 10px solid #072AC8;
+    border: 30px solid #072AC8;
     text-align: center;
     float: right;
+
 }
 
 
@@ -496,11 +518,14 @@ h1 {
 }
 
 .titfecha {
-    display: inline-block:
+    margin-top: -100px;
+
 }
 
 
 .projectsection {
+    margin-bottom: 5em;
+    margin-top: 50px;
     font-size: 22px;
     width: 1440px;
     height: 1181px;
@@ -517,45 +542,38 @@ h1 {
 }
 
 footer {
-    
-    width: 80%;
-    height: 40%px;
-    bottom: 0px;
 
+    width: 1000px;
+    height: 60px;
+
+
+}
+
+.cajas {
+    margin-top: 70px;
+    height: 100%;
 }
 
 .cajaHor {
+    margin-top: -150px;
+    ;
     float: right;
-  
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-top: -10px;
-
-
-
-}
-
-.cajaHor div {
-    float: right;
-    clear: left;
-    margin-left: 150px;
-    margin-top: -50px;
-
-}
-
-.cajaHor2 div {
-    float: right;
-    clear: left;
-    margin-left: 150px;
-    margin-top: -50px;
-    inline-size: 50px;
-
+    text-align: center;
 }
 
 .cajaHor2 {
-    margin: 0;
-    
-    
+    margin-top: -150px;
+    margin-right: 60px;
+    float: right;
+    text-align: center;
+}
+
+.cajaHor2 div {
+    padding: 1em;
+}
+
+.cajaHor div {
+    padding: 1em;
 }
 
 .label {
@@ -576,25 +594,26 @@ button {
     color: white;
     border: 10px solid #072AC8;
     float: left;
-    width: 1000px;
+    width: 1000em;
     height: 80px;
     text-align: center;
 }
 
-
+#fomulario {
+    text-align: center;
+    width: 1000em;
+}
 
 input {
-
-
     background-color: #e0e0e0;
-    width: 1000px;
+    width: 9000em;
     height: 70px;
     border: #ccc;
     margin-top: 20px;
 }
 
 .contacttitle {
-    margin-left: 180px;
+    margin-left: 60px;
     margin-top: 100px;
     font-size: 50px;
     font-weight: 500;
@@ -605,9 +624,10 @@ input {
     height: 200px;
 }
 
-.form-control.falla input { 
+.form-control.falla input {
     border: 0.1px solid;
     border-color: #fe5f55;
+    margin-top: 10px;
 }
 
 .form-control.ok input {
@@ -615,16 +635,116 @@ input {
     border-color: #08ffc8
 }
 
-.form-control p { 
+.form-control p {
     visibility: hidden;
     position: absolute;
     font-size: small;
     font-weight: 500;
-    
+
 }
 
 .form-control.falla p {
     visibility: visible;
     color: #e74c3c;
+    margin-top: 0px;
 }
 
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+
+    .containerNav {
+        width: 80%;
+    }
+
+    .navbar {
+        width: 90%;
+        margin-left: 20em;
+    }
+
+    .one {
+        width: 8em;
+    }
+
+
+
+    .three img {
+        width: 25em;
+    }
+
+    .two img {
+        width: 30em;
+    }
+
+    .four img {
+        width: 20em;
+    }
+
+    .wrapper {
+
+        width: 80%;
+    }
+
+    .imgs {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .cuadro {
+        weight: 100%;
+        font-size: small;
+    }
+
+    .fotoPerfil {
+        width: 20%;
+        text-align: center;
+    }
+
+    .container3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4 {
+        width: 100%;
+    }
+
+    div {
+        width: auto;
+    }
+}
+
+.fotopage {
+    width: 100%;
+}
+
+.projectsection {
+    width: 100%;
+    height: 100%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+.contacttitle {
+    width: 100%;
+}
